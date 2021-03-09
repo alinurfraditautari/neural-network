@@ -4,3 +4,10 @@
     }
     printf("\nBobot bias, b = %.1f.\n",bias);
 }
+int main(){
+    float input[dimensi1][dimensi2] = {{1.0, 1.0},{1.0, 0.0},{0.0, 1.0},{0.0, 0.0}};
+    float target[] = {1.0, 0.0, 0.0, 0.0};
+    float weight[] = {0.0, 0.0};
+    float alpha = 0.6;
+    float threshold = 0.4;
+}
