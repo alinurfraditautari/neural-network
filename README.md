@@ -1,2 +1,2 @@
 # neural-network
-Repository untuk menyimpan materi neural network
+Repository untuk menyimpan code neural network
