@@ -1,8 +1,8 @@
 #include<stdio.h>
 using namespace std;
-#define dimensi1 4 //banyak target
-#define dimensi2 2 //banyak input untuk tiap target
-#define maxEpoh 10 //banyaknya epoh
+#define dimensi1 4
+#define dimensi2 2
+#define maxEpoh 10
 void perceptron(float input[][dimensi2],float target[],float weight[], float bias, float alpha, float threshold, int maxepoh){
     int n = dimensi1;
     float yin = 0;
